@@ -1,0 +1,39 @@
+.container{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+     background-color:darkcyan; 
+    }
+    .card
+    {
+    border-radius: 10px;
+    width: 100%;
+    margin: 20px;
+    padding: 24px;
+    background-color:lightblue;
+    }
+    .first-row{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    }
+    @media screen and (min-width: 768px)
+    {
+    .card
+    {
+    width: 33%;
+    flex-wrap: wrap;
+    }
+    }
+    @media screen and (min-width: 992px)
+    {
+    .card
+    {
+    width: 25%; 
+    flex-wrap: wrap;
+    }
+    }
+    .referance{
+        text-align: center;
+    }
